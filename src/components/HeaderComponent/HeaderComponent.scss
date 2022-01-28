@@ -1,0 +1,81 @@
+@import "./../../App.scss";
+
+$small-container-width: 210px;
+$small-container-height: 120px;
+
+.main {
+    background-image: url("../../assets/187161.jpg");
+    /* background-image: url("../../assets/sandsBackdrop_Jan_Kopriva.jpeg"); */
+}
+.overlay {
+    color: white;
+    z-index: 0;
+}
+
+.cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: black;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    transition: 1s;
+}
+
+h2,
+.subtitle {
+    padding-top: 10px;
+    font-size: $title-font-size;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-weight: 400;
+    transition: 2s;
+}
+
+.subtitle {
+    font-family: "Poiret One", cursive;
+    padding-bottom: 10px;
+}
+
+.small-container {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: $small-container-width;
+    height: $small-container-height;
+    border: rgba(0, 0, 0, 0) 1px solid;
+    border-radius: 8px;
+    box-shadow: 10 10 10 red;
+    transition: 1s;
+}
+
+.hover-trigger {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 60%;
+    z-index: 10;
+}
+.hover-trigger:hover ~ .cover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.hover-trigger:hover {
+    h2,
+    .subtitle {
+        display: block;
+        color: black;
+        font-size: $title-font-size * 1.2;
+    }
+    .small-container {
+        border-color: black;
+        width: $small-container-width * 1.6;
+        height: $small-container-height * 1.6;
+        background-color: rgba($color: #fff, $alpha: 0.3);
+        box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+}
