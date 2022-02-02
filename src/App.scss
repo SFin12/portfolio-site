@@ -25,3 +25,26 @@ $title-font-size: 30px;
     font-family: "Dancing Script", cursive;
     color: white;
 }
+
+.page-transition-appears {
+    opacity: 0;
+}
+.page-transition-appears-done {
+    opacity: 1;
+}
+.page-transition-enter-done {
+    opacity: 1;
+}
+.page-transition-enter {
+    opacity: 0;
+}
+.page-transition-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms;
+}
+.page-transition-exit {
+    opacity: 1;
+}
+.page-transition-exit-active {
+    opacity: 0;
+}

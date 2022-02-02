@@ -1,19 +1,28 @@
 @import "./../../App.scss";
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poiret+One&family=Sedgwick+Ave&family=Supermercado+One&display=swap");
 
 .card {
     border-radius: 20px;
-    max-height: 800px;
-    max-width: 600px;
-    min-width: 350px;
-    transform: rotate(1deg);
+    max-height: 600px;
+    max-width: 500px;
+    min-width: 330px;
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .card-header {
     background-image: linear-gradient(
-        350deg,
-        rgb(75, 49, 0) 70%,
-        rgb(185, 121, 3)
+        5deg,
+        rgb(5, 0, 80) 70%,
+        rgba(62, 56, 128, 0.774)
     );
+    font-family: "Supermercado One", cursive;
+    font-size: xx-large;
+    color: white;
+    margin-bottom: -2px;
 }
 
 .card-img-top {
@@ -31,11 +40,12 @@
 .card-body {
     border-radius: 0 0 20px 20px;
     object-fit: contain;
+    margin-top: -2px;
 }
 
 .custom-cards {
     width: 90%;
-    box-shadow: 20px 20px 20px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: 15px 15px 15px 4px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
     font-size: 1rem;
 }
