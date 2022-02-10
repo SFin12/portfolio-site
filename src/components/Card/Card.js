@@ -5,11 +5,12 @@ function Card({ title, image, description, link }) {
     return (
         // <a href={link} style={{ "text-decoration": "none" }}>
         <div
-            className="card text-center mx-md-2 mx-xl-5 my-5 custom-cards"
+            className="card text-center mx-md-2 mx-xl-5 my-3 custom-cards"
             id="why-us"
         >
             <div className="card-header rnd-top-corners">{title}</div>
             <a href={link}>
+                {/* Get image and info from .json projects.json file */}
                 <img
                     src={require("../../assets/" + image)}
                     className="card-img-top"

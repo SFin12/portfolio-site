@@ -1,8 +1,8 @@
 import HomePage from "./Views/HomePage/HomePage";
-import ProjectsPage from "./Views/ProjectsPage/ProjectsPage";
 import "./App.scss";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
+import Main from "./Views/Main/Main";
 
 function App() {
     let location = useLocation();
@@ -18,14 +18,7 @@ function App() {
                     >
                         <Routes>
                             <Route path="/" element={<HomePage />} />
-                            <Route
-                                path="projectsPage"
-                                element={<ProjectsPage />}
-                            />
-                            {/* <Route path="contact" element={<Contact />} />
-                    <Route path="resume" element={<Resume />} />
-                    <Route path="skills" element={<Skills />} />
-                    <Route path="about" element={<About />} /> */}
+                            <Route path="main" element={<Main />} />
                         </Routes>
                     </CSSTransition>
                 </TransitionGroup>

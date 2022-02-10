@@ -10,7 +10,7 @@ function HeaderComponent() {
                 <div className="hover-trigger">
                     <div
                         className="small-container"
-                        onClick={() => navigate("/projectsPage")}
+                        onClick={() => navigate("/main")}
                     >
                         <div>
                             <h2>Sean Finegan</h2>
