@@ -5,6 +5,11 @@
     width: 100%;
     background: salmon;
     height: 50px;
+    z-index: 100;
+}
+
+.toolbar__logo {
+    margin-left: 1rem;
 }
 
 .toolbar__logo a {
@@ -20,6 +25,7 @@
     display: flex;
     height: 100%;
     padding: 0 1rem;
+    align-items: center;
 }
 
 .toolbar_navigation-items a {

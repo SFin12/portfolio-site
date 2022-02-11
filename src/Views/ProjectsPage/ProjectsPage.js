@@ -12,12 +12,14 @@ function ProjectsPage() {
                 <div className="d-flex flex-wrap justify-content-center ">
                     {data.map((project, i) => {
                         return (
-                            <Card
-                                title={project.title}
-                                image={project.image}
-                                description={project.description}
-                                link={project.link}
-                            />
+                            <div style={{ zIndex: "100" }}>
+                                <Card
+                                    title={project.title}
+                                    image={project.image}
+                                    description={project.description}
+                                    link={project.link}
+                                />
+                            </div>
                         );
                     })}
                 </div>
