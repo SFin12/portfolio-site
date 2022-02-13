@@ -31,7 +31,7 @@ function Main() {
                 <SideDrawer show={sideDrawerOpen} />
                 {backdrop}
                 <div className="main-background">
-                    <div>
+                    <div className="layer">
                         <Routes>
                             <Route path="/" element={<ProjectsPage />} />
                         </Routes>

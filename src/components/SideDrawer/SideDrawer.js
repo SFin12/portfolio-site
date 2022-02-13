@@ -1,5 +1,6 @@
 import React from "react";
 import "./SideDrawer.scss";
+import { LinkButton } from "../Buttons/LinkButton";
 
 const sideDrawer = (props) => {
     let drawerClasses = "side-drawer";
@@ -8,14 +9,9 @@ const sideDrawer = (props) => {
     }
     return (
         <nav className={drawerClasses}>
-            <ul>
-                <li>
-                    <a href="/">Profile</a>
-                </li>
-                <li>
-                    <a href="/">About</a>
-                </li>
-            </ul>
+            <div className="d-flex flex-column align-items-center p-4">
+                <LinkButton name="Skills" to="/skills" />
+            </div>
         </nav>
     );
 };

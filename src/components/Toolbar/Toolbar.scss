@@ -1,15 +1,25 @@
+@import "../../App.scss";
+
 .toolbar {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: salmon;
+    background-color: white;
+    background-image: linear-gradient(
+        2deg,
+        salmon 70%,
+        rgba(253, 126, 79, 0.6)
+    );
     height: 50px;
-    z-index: 100;
+    z-index: 200;
 }
 
 .toolbar__logo {
-    margin-left: 1rem;
+    margin: 0 auto;
+    font-family: $cursive-font;
+    font-size: 2rem;
+    font-weight: bolder;
 }
 
 .toolbar__logo a {
@@ -41,4 +51,14 @@
 
 .toolbar_navigation-items li {
     padding: 0 0.5rem;
+}
+
+.full-stack {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .full-stack {
+        display: inline-block;
+    }
 }

@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poiret+One&family=Sedgwick+Ave&display=swap");
 
 $title-font-size: 30px;
+$cursive-font: "Dancing Script", cursive;
 
 * {
     margin: 0px;
@@ -22,7 +23,7 @@ $title-font-size: 30px;
     justify-content: center;
     font-size: $title-font-size;
     font-family: "Sedgwick Ave", cursive;
-    font-family: "Dancing Script", cursive;
+    font-family: $cursive-font;
     color: white;
 }
 

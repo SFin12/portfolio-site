@@ -12,7 +12,10 @@ function ProjectsPage() {
                 <div className="d-flex flex-wrap justify-content-center ">
                     {data.map((project, i) => {
                         return (
-                            <div style={{ zIndex: "100" }}>
+                            <div
+                                className="d-flex justify-content-center"
+                                style={{ zIndex: "100" }}
+                            >
                                 <Card
                                     title={project.title}
                                     image={project.image}

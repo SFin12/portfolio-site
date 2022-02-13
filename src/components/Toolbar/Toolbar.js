@@ -11,17 +11,16 @@ const Toolbar = (props) => (
                 </div>
 
                 <div className="toolbar__logo">
-                    <a href="/">THE LOGO</a>
+                    Sean Finegan{" "}
+                    <span className="full-stack">
+                        &#123; Full Stack Developer &#125;
+                    </span>
                 </div>
-                <div className="spacer" />
+                {/* <div className="spacer" /> */}
                 <div className="toolbar_navigation-items">
                     <ul>
-                        <li>
-                            <a href="/">Products</a>
-                        </li>
-                        <li>
-                            <a href="/">Users</a>
-                        </li>
+                        <li></li>
+                        <li></li>
                     </ul>
                 </div>
             </nav>
