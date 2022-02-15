@@ -16,13 +16,13 @@ function App() {
                         classNames="page-transition"
                         timeout={2000}
                     >
-                        <Routes>
-                            <Route path="/" element={<HomePage />} />
-                            <Route path="main" element={<Main />} />
-                        </Routes>
+                        <HomePage />
                     </CSSTransition>
                 </TransitionGroup>
             </main>
+            <section>
+                <Main />
+            </section>
         </div>
     );
 }

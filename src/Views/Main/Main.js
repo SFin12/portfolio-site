@@ -7,6 +7,7 @@ import Toolbar from "../../components/Toolbar/Toolbar";
 import SideDrawer from "../../components/SideDrawer/SideDrawer";
 import Backdrop from "../../components/Backdrop/Backdrop";
 import sideDrawer from "../../components/SideDrawer/SideDrawer";
+import Skills from "../Skills/Skills";
 
 function Main() {
     let location = useLocation();
@@ -26,15 +27,16 @@ function Main() {
     return (
         <React.Fragment>
             <div style={{ height: "100%" }}>
-                <div className="topbar"></div>
                 <Toolbar drawerClickHandler={drawerToggleClickHandler} />
                 <SideDrawer show={sideDrawerOpen} />
                 {backdrop}
-                <div className="main-background">
+                <div className="main-background" id="main">
                     <div className="layer">
                         <Routes>
                             <Route path="/" element={<ProjectsPage />} />
+                            <Route path="/" element={<Skills />} />
                         </Routes>
+                        <Skills id="skills" />
                     </div>
                 </div>
                 <div className="fade-in-overlay"></div>
