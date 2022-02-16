@@ -9,7 +9,7 @@ function HeaderComponent() {
         <div className="main">
             <header className="App-header overlay">
                 <div className="hover-trigger">
-                    <HashLink to="/#main" className="small-container">
+                    <HashLink smooth to="/#main" className="small-container">
                         <div>
                             <h2>Sean Finegan</h2>
                             <div className="subtitle">

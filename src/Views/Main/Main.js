@@ -39,7 +39,6 @@ function Main() {
                         <Skills id="skills" />
                     </div>
                 </div>
-                <div className="fade-in-overlay"></div>
             </div>
         </React.Fragment>
     );
