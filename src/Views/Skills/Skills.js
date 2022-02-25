@@ -84,8 +84,8 @@ function Skills(props) {
                 />
                 <Skill
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-                    alt="git"
-                    type="git"
+                    alt="Git"
+                    type="Git / Github"
                     rating={5}
                 />
                 <Skill

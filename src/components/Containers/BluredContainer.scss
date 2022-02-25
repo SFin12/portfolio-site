@@ -1,0 +1,7 @@
+.blured-container {
+    border-radius: 2rem;
+    background-color: rgba($color: #ffff, $alpha: 0.2);
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    margin: 5px;
+}
