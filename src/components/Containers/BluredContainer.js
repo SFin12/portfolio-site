@@ -4,9 +4,9 @@ import "./BluredContainer.scss";
 function BluredContainer({ title, description }) {
     return (
         <React.Fragment>
-            <div className="blured-Container">
+            <div className="blured-container">
                 <h2>{title}</h2>
-                <p>{description}</p>
+                {description}
             </div>
         </React.Fragment>
     );

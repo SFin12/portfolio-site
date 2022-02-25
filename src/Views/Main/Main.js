@@ -8,6 +8,7 @@ import SideDrawer from "../../components/SideDrawer/SideDrawer";
 import Backdrop from "../../components/Backdrop/Backdrop";
 import sideDrawer from "../../components/SideDrawer/SideDrawer";
 import Skills from "../Skills/Skills";
+import About from "../About/About";
 
 function Main() {
     let location = useLocation();
@@ -35,8 +36,10 @@ function Main() {
                         <Routes>
                             <Route path="/" element={<ProjectsPage />} />
                             <Route path="/" element={<Skills />} />
+                            <Route path="/about" element={<About />} />
                         </Routes>
                         <Skills id="skills" />
+                        <About />
                     </div>
                 </div>
             </div>
