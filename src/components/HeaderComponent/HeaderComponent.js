@@ -1,10 +1,7 @@
 import "./HeaderComponent.scss";
-import { useNavigate } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
 function HeaderComponent() {
-    const navigate = useNavigate();
-
     return (
         <div className="main">
             <header className="App-header overlay">

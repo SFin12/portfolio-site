@@ -2,19 +2,19 @@
     {
         "title": "Coach's Clipboard",
         "image": "peClipboardMobile.png",
-        "description": "React web app for coaches and PE teachers that's meant to replace the clipboard.",
+        "description": "React web app for coaches and PE teachers that's meant to replace the clipboard. Utilizes Redux, React Router, and Firebase for the database",
         "link": "https://sfin12.github.io/pe-clipboard-react/"
     },
     {
         "title": "Sonic Adventure",
         "image": "sonicScavengerHunt.png",
-        "description": "Kids scavenger hunt that gives clues and asks for correct answers before giving the next clue.",
+        "description": "Kids scavenger hunt that gives clues and asks for correct answers before giving the next clue. Utilizes react with JSON files for the information.",
         "link": null
     },
     {
         "title": "Armored Coatings",
         "image": "armoredCoatings.png",
-        "description": "Basic website using html, custom css, bootstrap, and javascript.",
+        "description": "Clean and simple website using html, custom css, bootstrap, and javascript. Zipcode API will be implemented in estimate modal for more accurate estimates.",
         "link": "http://armoredcoatings.net/"
     }
 ]

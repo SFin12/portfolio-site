@@ -8,8 +8,9 @@ function ProjectsPage() {
     console.log(data);
     return (
         <React.Fragment>
-            <div className="projects-container">
+            <div className="projects-container" id="projects-page">
                 <div className="d-flex flex-wrap justify-content-center h-100">
+                    <h1>Projects</h1>
                     {data.map((project, i) => {
                         return (
                             <div

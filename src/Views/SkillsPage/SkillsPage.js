@@ -1,22 +1,25 @@
 import React from "react";
 import Skill from "./Skill";
-import "./Skills.scss";
+import "./SkillsPage.scss";
 
-function Skills(props) {
+function SkillsPage(props) {
     return (
         <React.Fragment>
-            <div className="skills-container d-flex flex-column">
-                <div className="d-flex w-100 justify-content-center">
-                    <div className="d-flex w-50 justify-content-between">
-                        <div>
+            <div
+                className="skills-container d-flex flex-column align-items-center mt-4 pt-5"
+                id="skills-page"
+            >
+                <div className="d-flex w-100 justify-content-center mb-2">
+                    <div className="d-flex w-75 justify-content-between">
+                        <div className="mx-2">
                             <h4>Learning</h4>
                             <div id="learning"></div>
                         </div>
-                        <div>
+                        <div className="mx-2">
                             <h4>Familiar</h4>
                             <div id="familiar"></div>
                         </div>
-                        <div>
+                        <div className="mx-2">
                             <h4>Proficient</h4>
                             <div id="proficient"></div>
                         </div>
@@ -52,6 +55,13 @@ function Skills(props) {
                     type="CSS"
                     rating={6}
                 />
+                <Skill
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                    alt="Bootstrap"
+                    type="Bootstrap"
+                    rating={5}
+                />
+
                 <Skill
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
                     alt="Sass"
@@ -94,9 +104,15 @@ function Skills(props) {
                     type="Visual Studio Code"
                     rating={6}
                 />
+                {/* <Skill
+                    src="/Users/sean/Dev/portfolioSite/portfolio-site/src/assets/bash-original.svg"
+                    alt="Bash"
+                    type="Bash"
+                    rating={3}
+                /> */}
             </div>
         </React.Fragment>
     );
 }
 
-export default Skills;
+export default SkillsPage;

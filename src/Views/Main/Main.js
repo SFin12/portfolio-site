@@ -6,9 +6,9 @@ import "./Main.scss";
 import Toolbar from "../../components/Toolbar/Toolbar";
 import SideDrawer from "../../components/SideDrawer/SideDrawer";
 import Backdrop from "../../components/Backdrop/Backdrop";
-import sideDrawer from "../../components/SideDrawer/SideDrawer";
-import Skills from "../Skills/Skills";
-import About from "../About/About";
+import SkillsPage from "../SkillsPage/SkillsPage";
+import AboutPage from "../AboutPage.js/AboutPage";
+import ContactPage from "../ContactPage/ContactPage";
 
 function Main() {
     let location = useLocation();
@@ -35,11 +35,12 @@ function Main() {
                     <div className="layer">
                         <Routes>
                             <Route path="/" element={<ProjectsPage />} />
-                            <Route path="/" element={<Skills />} />
-                            <Route path="/about" element={<About />} />
+                            <Route path="/skills" element={<SkillsPage />} />
+                            <Route path="/about" element={<AboutPage />} />
                         </Routes>
-                        <Skills id="skills" />
-                        <About />
+                        <SkillsPage id="skills" />
+                        <AboutPage />
+                        <ContactPage />
                     </div>
                 </div>
             </div>

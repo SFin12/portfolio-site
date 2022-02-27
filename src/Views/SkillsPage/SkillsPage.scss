@@ -57,6 +57,10 @@
     }
 
     img {
+        max-height: fit-content;
+        max-width: fit-content;
+        min-width: 80px;
+        min-height: 80px;
         display: inline;
         padding: 1rem;
     }
@@ -100,6 +104,12 @@
             width: 100px;
             min-width: 100px;
         }
+
+        img {
+            min-width: 100px;
+            min-height: 100px;
+        }
+
         .bar-fill {
             font-size: 1.2rem;
             font-weight: 700;
