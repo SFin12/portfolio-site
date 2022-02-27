@@ -9,13 +9,14 @@ function ProjectsPage() {
     return (
         <React.Fragment>
             <div className="projects-container" id="projects-page">
+                <h1>Projects</h1>
                 <div className="d-flex flex-wrap justify-content-center h-100">
-                    <h1>Projects</h1>
                     {data.map((project, i) => {
                         return (
                             <div
                                 className="d-flex justify-content-center"
                                 style={{ zIndex: "100" }}
+                                key={"projectsKey" + i}
                             >
                                 <Card
                                     title={project.title}

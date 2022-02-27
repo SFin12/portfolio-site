@@ -1,6 +1,5 @@
 import ProjectsPage from "../ProjectsPage/ProjectsPage";
-import { Routes, Route, useLocation } from "react-router-dom";
-import { CSSTransition, TransitionGroup } from "react-transition-group";
+import { Routes, Route } from "react-router-dom";
 import React, { useState } from "react";
 import "./Main.scss";
 import Toolbar from "../../components/Toolbar/Toolbar";
@@ -11,14 +10,12 @@ import AboutPage from "../AboutPage.js/AboutPage";
 import ContactPage from "../ContactPage/ContactPage";
 
 function Main() {
-    let location = useLocation();
     const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
 
     function drawerToggleClickHandler() {
         setSideDrawerOpen(!sideDrawerOpen);
     }
 
-    let sideDrawer;
     let backdrop;
 
     if (sideDrawerOpen) {
@@ -29,7 +26,10 @@ function Main() {
         <React.Fragment>
             <div style={{ height: "100%" }}>
                 <Toolbar drawerClickHandler={drawerToggleClickHandler} />
-                <SideDrawer show={sideDrawerOpen} />
+                <SideDrawer
+                    show={sideDrawerOpen}
+                    close={drawerToggleClickHandler}
+                />
                 {backdrop}
                 <div className="main-background" id="main">
                     <div className="layer">
