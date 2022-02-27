@@ -14,7 +14,7 @@ const Toolbar = (props) => (
                     Sean Finegan{" "}
                     <span className="full-stack">
                         {" "}
-                        - Full Stack Web dDeveloper
+                        - Full Stack Web Developer
                     </span>
                 </div>
                 {/* <div className="spacer" /> */}

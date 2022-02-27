@@ -9,6 +9,7 @@ function SkillsPage(props) {
                 className="skills-container d-flex flex-column align-items-center mt-4 pt-5"
                 id="skills-page"
             >
+                <h1 className="m-4 mb-5">Skills</h1>
                 <div className="d-flex w-100 justify-content-center mb-2">
                     <div className="d-flex w-75 justify-content-between">
                         <div className="mx-2">
