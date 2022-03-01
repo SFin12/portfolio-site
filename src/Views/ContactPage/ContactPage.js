@@ -24,7 +24,7 @@ function ContactPage(props) {
                         <a href="https://www.linkedin.com/in/sean-finegan-9a5949220/">
                             <img
                                 src={require("/Users/sean/Dev/portfolioSite/portfolio-site/src/assets/indeed.png")}
-                                alt="LinkedIn Icon"
+                                alt="Indeed Icon"
                                 id="indeed-icon"
                             />
                         </a>

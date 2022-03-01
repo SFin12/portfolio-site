@@ -22,12 +22,21 @@
 
     #github-icon {
         padding: -10px;
-        background-color: white;
+        background: radial-gradient(white 58%, black 60%);
         border-radius: 50%;
-        outline: 3px solid black;
-        outline-offset: -3px;
+        // outline: 3px solid black;
+        // outline-offset: -3px;
+        overflow: hidden;
         box-shadow: 15px 15px 15px 4px rgba(0, 0, 0, 0.3);
     }
+
+    .github-border {
+        margin: 10px;
+        background-color: white;
+        border-radius: 50%;
+        // border: 2px solid black;
+    }
+
     #indeed-icon {
         max-height: 70px;
         max-width: 70px;

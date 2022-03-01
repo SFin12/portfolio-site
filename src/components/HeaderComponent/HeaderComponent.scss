@@ -5,8 +5,8 @@ $small-container-height: 120px;
 
 .main {
     background-image: url("../../assets/187161.jpg");
-    /* background-image: url("../../assets/sandsBackdrop_Jan_Kopriva.jpeg"); */
 }
+
 .overlay {
     color: white;
     z-index: 0;
@@ -14,8 +14,9 @@ $small-container-height: 120px;
 
 .cover {
     position: absolute;
+
     width: 100%;
-    height: 100%;
+    height: 100vh;
     color: black;
     z-index: 1;
     background-color: rgba(0, 0, 0, 0.5);
