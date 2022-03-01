@@ -1,5 +1,5 @@
 import ProjectsPage from "../ProjectsPage/ProjectsPage";
-import { Routes, Route } from "react-router-dom";
+
 import React, { useState } from "react";
 import "./Main.scss";
 import Toolbar from "../../components/Toolbar/Toolbar";
@@ -33,11 +33,7 @@ function Main() {
                 {backdrop}
                 <div className="main-background" id="main">
                     <div className="layer">
-                        <Routes>
-                            <Route path="/" element={<ProjectsPage />} />
-                            <Route path="/skills" element={<SkillsPage />} />
-                            <Route path="/about" element={<AboutPage />} />
-                        </Routes>
+                        <ProjectsPage />
                         <SkillsPage id="skills" />
                         <AboutPage />
                         <ContactPage />

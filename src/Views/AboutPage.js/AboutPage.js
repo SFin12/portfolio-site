@@ -5,7 +5,7 @@ import "./AboutPage.scss";
 function AboutPage(props) {
     return (
         <React.Fragment>
-            <section className="about-page" id="about-page">
+            <section className="about-page pt-5" id="about-page">
                 <div className="d-flex justify-content-center">
                     <h1 style={{ fontWeight: "500", color: "black" }}>
                         About Me

@@ -3,6 +3,7 @@
     height: 50px;
 }
 
+// Ios work around for fixed background
 body:before {
     content: "";
     display: block;
