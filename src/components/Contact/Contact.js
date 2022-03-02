@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Contact.scss";
+import { send } from "emailjs-com";
 
 const Contact = () => {
     const [name, setName] = useState("");
@@ -8,13 +9,39 @@ const Contact = () => {
     const [emailSent, setEmailSent] = useState(false);
 
     const submit = () => {
+        if (emailSent) {
+            return;
+        }
         if (name && isValidEmail(email) && message) {
             // TODO - send mail
+
+            const formData = {
+                fromName: name,
+                fromEmail: email,
+                message: message,
+            };
+
+            send(
+                "service_gk1xtqk",
+                "template_yrt3bbr",
+                formData,
+                "5yop65zQLl8k3ZyGw"
+            ).then(
+                (result) => {
+                    console.log(result.text);
+                },
+                (error) => {
+                    console.log(error.text);
+                }
+            );
 
             setName("");
             setEmail("");
             setMessage("");
             setEmailSent(true);
+            setTimeout(() => {
+                setEmailSent(false);
+            }, 10000);
         } else {
             alert("Please fill in all fields.");
         }
@@ -47,10 +74,9 @@ const Contact = () => {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
             ></textarea>
-            <button onClick={submit}>Send Message</button>
-            <span className={emailSent ? "visible" : null}>
-                Thank you for your message, we will be in touch in no time!
-            </span>
+            <button onClick={submit}>
+                {emailSent ? "Thank You!" : "Send Message"}
+            </button>
         </div>
     );
 };
