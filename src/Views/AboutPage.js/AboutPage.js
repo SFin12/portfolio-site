@@ -58,10 +58,10 @@ function AboutPage(props) {
                                     graduation and as a project spotlight for
                                     Nucamp. I am most comfortable with
                                     javaScript and React but also have some
-                                    experience with React Native and
-                                    Node.js/MongoDb. I am currently taking
+                                    experience with React Native, Bootstrap,
+                                    Node.js, and MongoDb. I am currently taking
                                     courses in advanced Css/Sass,
-                                    node.js/MongoDb, and javaScript through
+                                    Node.js/MongoDb, and javaScript through
                                     Udemy.
                                 </p>
                             </div>
