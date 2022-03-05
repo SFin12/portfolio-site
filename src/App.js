@@ -8,7 +8,7 @@ function App() {
     let location = useLocation();
 
     return (
-        <div className="App">
+        <div className="App" id="home">
             <main>
                 <TransitionGroup>
                     <CSSTransition

@@ -1,6 +1,7 @@
 import React from "react";
 import "./SideDrawer.scss";
-import { LinkButton } from "../Buttons/LinkButton";
+import { PillButton } from "../Buttons/PillButton";
+import { SideDrawerButton } from "../Buttons/SideDrawerButton";
 
 const sideDrawer = (props) => {
     let drawerClasses = "side-drawer";
@@ -13,6 +14,12 @@ const sideDrawer = (props) => {
     }
 
     const pageLinks = [
+        {
+            name: "Home",
+            to: "home",
+            background: "salmon",
+            textColor: "white",
+        },
         {
             name: "Projects",
             to: "projects-page",
@@ -34,16 +41,13 @@ const sideDrawer = (props) => {
     return (
         <nav className={drawerClasses}>
             {pageLinks.map((link, i) => (
-                <div
-                    className="d-flex flex-column align-items-center p-4"
-                    key={"linkKey" + i}
-                >
-                    <LinkButton
-                        name={link.name}
-                        to={link.to}
-                        close={handleClose}
-                    />
-                </div>
+                <SideDrawerButton
+                    name={link.name}
+                    to={link.to}
+                    close={handleClose}
+                    background={link.background}
+                    textColor={link.textColor}
+                />
             ))}
         </nav>
     );
