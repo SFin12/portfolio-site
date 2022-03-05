@@ -21,7 +21,7 @@ function ContactPage(props) {
                         </a>
                     </div>
                     <div className="social-icon">
-                        <a href="https://www.linkedin.com/in/sean-finegan-9a5949220/">
+                        <a href="https://my.indeed.com/p/seanf-xf7txcg">
                             <img
                                 src={require("/Users/sean/Dev/portfolioSite/portfolio-site/src/assets/indeed.png")}
                                 alt="Indeed Icon"
