@@ -16,15 +16,13 @@ const sideDrawer = (props) => {
     const pageLinks = [
         {
             name: "Home",
-            to: "header",
+            to: "home",
             background: "salmon",
             textColor: "white",
         },
         {
             name: "Projects",
             to: "projects-page",
-            background: "salmon",
-            textColor: "white",
         },
         {
             name: "Skills",

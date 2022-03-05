@@ -11,7 +11,7 @@ function AboutPage(props) {
                         About Me
                     </h1>
                 </div>
-                <div className="d-flex flex-wrap justify-content-around m-4">
+                <div className="about-container d-flex flex-wrap justify-content-around m-4 ">
                     <BluredContainer
                         title={"Past"}
                         description={
@@ -81,11 +81,11 @@ function AboutPage(props) {
                                     including data structures and algorithms.
                                     Within the next year I also plan on learning
                                     more about mobile development and React
-                                    Native. I aslo plan on learning Next.js and
-                                    C# within the next few years. An ideal job
-                                    would challenge me to grow more in the field
-                                    more providing some support from senior
-                                    developers.
+                                    Native. I aslo plan on learning more about
+                                    Next.js and C# within the next few years. An
+                                    ideal job would challenge me to grow more in
+                                    the field while providing some support from
+                                    more experienced developers.
                                 </p>
                             </div>
                         }
