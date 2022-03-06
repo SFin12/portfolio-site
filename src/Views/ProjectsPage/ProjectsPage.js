@@ -9,7 +9,7 @@ function ProjectsPage() {
     return (
         <React.Fragment>
             <div className="projects-container pt-5" id="projects-page">
-                <h1>Projects</h1>
+                <h1 className="page-title">Projects</h1>
                 <div className="d-flex flex-wrap justify-content-center h-100">
                     {data.map((project, i) => {
                         return (

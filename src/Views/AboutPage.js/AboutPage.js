@@ -7,9 +7,7 @@ function AboutPage(props) {
         <React.Fragment>
             <section className="about-page pt-5" id="about-page">
                 <div className="d-flex justify-content-center">
-                    <h1 style={{ fontWeight: "500", color: "black" }}>
-                        About Me
-                    </h1>
+                    <h1 className="page-title">About Me</h1>
                 </div>
                 <div className="about-container d-flex flex-wrap justify-content-around m-4 ">
                     <BluredContainer
@@ -24,12 +22,12 @@ function AboutPage(props) {
                                     been teaching physical education and
                                     coaching primarily at the high school level.
                                     The past two years I have been the
-                                    Department Chair for the Physical Education
-                                    department at a school with over 2000
-                                    students. As a department, working as a team
-                                    was vital. We often had to team teach and
-                                    share facilities, working out scheduling for
-                                    up to six classes in the same period. We
+                                    Department Chair for the PE department at a
+                                    school with over 2000 students. As a
+                                    department, working as a team was vital. We
+                                    often had to team teach and share
+                                    facilities, working out scheduling for up to
+                                    six classes in the same period. We
                                     collaborated regularly and created and
                                     modified curriculum over the years. I
                                     continued taking college courses including
@@ -45,23 +43,23 @@ function AboutPage(props) {
                         description={
                             <div>
                                 <p>
-                                    After completing a python 3 course at
+                                    After completing a Python 3 course at
                                     Codecademy in 2020, I started considering a
                                     carreer change to software development.
-                                    After working through Codecademy's full
-                                    stack carreer path, I decided to go all in
+                                    After working through Codecademy's Full
+                                    Stack career path, I decided to go all in
                                     and enroll in a coding bootcamp. I chose
-                                    Nucamp's full stack bootcamp in the fall of
+                                    Nucamp's Full Stack program in the fall of
                                     2021 and graduated with honors in January
                                     2022. I was honored to have my portfolio
-                                    project "Coach's Clipboard" featured durning
+                                    project "Coach's Clipboard" featured during
                                     graduation and as a project spotlight for
                                     Nucamp. I am most comfortable with
-                                    javaScript and React but also have some
+                                    JavaScript and React but also have some
                                     experience with React Native, Bootstrap,
                                     Node.js, and MongoDb. I am currently taking
-                                    courses in advanced Css/Sass,
-                                    Node.js/MongoDb, and javaScript through
+                                    courses in advanced CSS/SASS,
+                                    Node.js/MongoDb and JavaScript through
                                     Udemy.
                                 </p>
                             </div>

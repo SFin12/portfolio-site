@@ -9,9 +9,8 @@ function HeaderComponent() {
                     <HashLink smooth to="/#main" className="small-container">
                         <div>
                             <h2>Sean Finegan</h2>
-                            <div className="subtitle">
-                                Full Stack Web Developer
-                            </div>
+                            <div className="subtitle">Full Stack Web</div>
+                            <div className="subtitle">Developer</div>
                         </div>
                     </HashLink>
                 </div>

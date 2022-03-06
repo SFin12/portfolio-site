@@ -59,7 +59,7 @@ const Contact = () => {
             <input
                 id="top-input"
                 type="text"
-                placeholder="Your Name"
+                placeholder="Your name"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
             />

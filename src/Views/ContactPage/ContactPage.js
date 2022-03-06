@@ -6,7 +6,7 @@ function ContactPage(props) {
     return (
         <React.Fragment>
             <section className="contact-page" id="contact-page">
-                <h1>Contact</h1>
+                <h1 className="page-title">Contact</h1>
                 <div className="d-flex justify-content-center m-4">
                     <Contact />
                 </div>

@@ -2,8 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sedgwick+Ave&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poiret+One&family=Sedgwick+Ave&display=swap");
 
-$title-font-size: 30px;
+$title-font-size: 2.5rem;
 $cursive-font: "Dancing Script", cursive;
+$title-font: "Supermercado One", cursive;
 
 * {
     margin: 0px;
@@ -48,4 +49,17 @@ $cursive-font: "Dancing Script", cursive;
 }
 .page-transition-exit-active {
     opacity: 0;
+}
+
+.page-title {
+    font-family: $cursive-font;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+@media (min-width: 756px) {
+    .page-title {
+        font-weight: 800;
+        font-size: 4rem;
+    }
 }
