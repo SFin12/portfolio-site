@@ -73,13 +73,13 @@ function AboutPage(props) {
                                 <p>
                                     I have a lot to learn as I continue to build
                                     and practice related technologies. My goal
-                                    is to transition into a junior front end or
-                                    full stack web developer and continue to
+                                    is to transition into a Junior Front End or
+                                    Full Stack Web Developer and continue to
                                     dive deeper into programming concepts
                                     including data structures and algorithms.
                                     Within the next year I also plan on learning
                                     more about mobile development and React
-                                    Native. I aslo plan on learning more about
+                                    Native. I also plan on learning more about
                                     Next.js and C# within the next few years. An
                                     ideal job would challenge me to grow more in
                                     the field while providing some support from
