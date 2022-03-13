@@ -9,7 +9,7 @@
         "title": "Sonic Adventure",
         "image": "sonicScavengerHunt.png",
         "description": "Kids scavenger hunt that gives clues and asks for correct answers before giving the next clue. Utilizes React with JSON files for the information. JavaScript and CSS used for countdown animation. (Project will be online soon)",
-        "link": null
+        "link": "https://sfin12.github.io/sonic-scavenger-hunt/"
     },
     {
         "title": "Armored Coatings",
