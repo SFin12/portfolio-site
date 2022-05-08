@@ -16,5 +16,17 @@
         "image": "armoredCoatings.png",
         "description": "Clean and simple website using HTML, custom CSS, Bootstrap, and JavaScript. Zipcode API will be implemented in estimate modal for more accurate estimates.",
         "link": "http://armoredcoatings.net/"
+    },
+    {
+        "title": "Chorzy",
+        "image": "Chorzy.jpg",
+        "description": "The app functions as a chore and allowance tracker for families. Utilizes React, Firebase, Redux toolkit, React Router and other front end technologies. ",
+        "link": "https://kids-allowance-a64f2.web.app/main/"
+    },
+    {
+        "title": "Baseball Profile",
+        "image": "baseball-profile.png",
+        "description": "Baseball profile web app to see personal info, league stats, and training videos. The app uses fake data to simulate data from a database or api.  Uses React, Bootstrap, React Router and other front end technologies.",
+        "link": "https://sfin12.github.io/baseball-profile-app/"
     }
 ]
