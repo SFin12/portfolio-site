@@ -91,7 +91,7 @@ function SkillsPage(props) {
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
                     alt="Firebase"
                     type="Firebase"
-                    rating={3}
+                    rating={6}
                 />
                 <Skill
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
@@ -103,7 +103,7 @@ function SkillsPage(props) {
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
                     alt="Visual Studio Code"
                     type="Visual Studio Code"
-                    rating={6}
+                    rating={7}
                 />
                 {/* <Skill
                     src="/Users/sean/Dev/portfolioSite/portfolio-site/src/assets/bash-original.svg"

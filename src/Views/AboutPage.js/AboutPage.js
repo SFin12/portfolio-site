@@ -19,15 +19,13 @@ function AboutPage(props) {
                                     University of Sacramento. I finished my
                                     teaching credential in 2008 and attained a
                                     science authorization. Since then, I have
-                                    been teaching physical education and
-                                    coaching primarily at the high school level.
-                                    The past two years I have been the
-                                    Department Chair for the PE department at a
-                                    school with over 2000 students. As a
-                                    department, working as a team was vital. We
-                                    often had to team teach and share
-                                    facilities, working out scheduling for up to
-                                    six classes in the same period. We
+                                    been teaching and coaching primarily at the
+                                    high school level. The past two years I have
+                                    been the Department Chair for the PE
+                                    department. As a department, working as a
+                                    team was vital. We often had to team teach
+                                    and share facilities, working out scheduling
+                                    for up to six classes in the same period. We
                                     collaborated regularly and created and
                                     modified curriculum over the years. I
                                     continued taking college courses including
@@ -73,14 +71,14 @@ function AboutPage(props) {
                                 <p>
                                     I have a lot to learn as I continue to build
                                     and practice related technologies. My goal
-                                    is to transition into a Junior Front End or
-                                    Full Stack Web Developer and continue to
-                                    dive deeper into programming concepts
-                                    including data structures and algorithms.
-                                    Within the next year I also plan on learning
-                                    more about mobile development and React
-                                    Native. I also plan on learning more about
-                                    Next.js and C# within the next few years. An
+                                    is to transition into a Front End or Full
+                                    Stack Web Developer and continue to dive
+                                    deeper into programming concepts including
+                                    data structures and algorithms. Within the
+                                    next year I also plan on learning more about
+                                    mobile development, React Native, and
+                                    Next.js as well as becoming more familiar
+                                    with backend languages and technologies. An
                                     ideal job would challenge me to grow more in
                                     the field while providing some support from
                                     more experienced developers.
