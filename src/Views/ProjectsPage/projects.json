@@ -6,27 +6,28 @@
         "link": "https://sfin12.github.io/pe-clipboard-react/"
     },
     {
-        "title": "Sonic Adventure",
-        "image": "sonicScavengerHunt.png",
-        "description": "Kids scavenger hunt that gives clues and asks for correct answers before giving the next clue. Utilizes React with JSON files for the information. JavaScript and CSS used for countdown animation. (Project will be online soon)",
-        "link": "https://sfin12.github.io/sonic-scavenger-hunt/"
-    },
-    {
         "title": "Armored Coatings",
         "image": "armoredCoatings.png",
-        "description": "Clean and simple website using HTML, custom CSS, Bootstrap, and JavaScript. Zipcode API will be implemented in estimate modal for more accurate estimates.",
+        "description": "Clean and simple website using HTML, custom CSS, Bootstrap, and JavaScript. EmailJS API and Zipcode API implemented in quick estimate modal for more accurate estimates.",
         "link": "http://armoredcoatings.net/"
     },
     {
         "title": "Chorzy",
         "image": "Chorzy.jpg",
-        "description": "The app functions as a chore and allowance tracker for families. Utilizes React, Firebase, Redux toolkit, React Router and other front end technologies. ",
-        "link": "https://kids-allowance-a64f2.web.app/main/"
+        "description": "The app functions as a chore and allowance tracker for families. Utilizes React, Firebase, Redux toolkit, React Router and other front end technologies.",
+        "link": "https://kids-allowance-a64f2.web.app/"
     },
+    {
+        "title": "Sonic Adventure",
+        "image": "sonicScavengerHunt.png",
+        "description": "Kids scavenger hunt that gives clues and asks for correct answers before giving the next clue. Utilizes React with JSON files for the information. JavaScript and CSS used for countdown animation. Created for my son's birthday party and is not currently mobile friendly.",
+        "link": "https://sfin12.github.io/sonic-scavenger-hunt/"
+    },
+
     {
         "title": "Baseball Profile",
         "image": "baseball-profile.png",
-        "description": "Baseball profile web app to see personal info, league stats, and training videos. The app uses fake data to simulate data from a database or api.  Uses React, Bootstrap, React Router and other front end technologies.",
+        "description": "Use any name or password to login! This is a baseball profile web app to see personal info, league stats, and training videos. The app uses fake data to simulate data from a database or api.  Uses React, Bootstrap, React Router and other front end technologies.",
         "link": "https://sfin12.github.io/baseball-profile-app/"
     }
 ]

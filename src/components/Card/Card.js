@@ -1,7 +1,6 @@
 import "./Card.scss";
 
 function Card({ title, image, description, link }) {
-    console.log("../../assets/" + image);
     return (
         // <a href={link} style={{ "text-decoration": "none" }}>
         <div

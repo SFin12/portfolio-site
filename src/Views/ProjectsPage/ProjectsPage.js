@@ -1,8 +1,7 @@
 import React from "react";
 import Card from "../../components/Card/Card";
-import { CSSTransition } from "react-transition-group";
 import "./ProjectPage.scss";
-const data = require("./projects.json");
+import data from "./projects.json";
 
 function ProjectsPage() {
     console.log(data);

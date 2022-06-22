@@ -42,6 +42,7 @@ const sideDrawer = (props) => {
         <nav className={drawerClasses}>
             {pageLinks.map((link, i) => (
                 <SideDrawerButton
+                    key={i + link.name}
                     name={link.name}
                     to={link.to}
                     close={handleClose}
