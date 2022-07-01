@@ -36,7 +36,7 @@ function SkillsPage(props) {
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
                     alt="React"
                     type="React"
-                    rating={7}
+                    rating={8}
                 />
                 <Skill
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg"
@@ -54,20 +54,20 @@ function SkillsPage(props) {
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
                     alt="CSS"
                     type="CSS"
-                    rating={6}
+                    rating={7}
                 />
                 <Skill
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
                     alt="Bootstrap"
                     type="Bootstrap"
-                    rating={5}
+                    rating={7}
                 />
 
                 <Skill
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
                     alt="Sass"
                     type="Sass"
-                    rating={3}
+                    rating={4}
                 />
                 <Skill
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg"
@@ -79,7 +79,7 @@ function SkillsPage(props) {
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
                     alt="npm"
                     type="Npm"
-                    rating={5}
+                    rating={6}
                 />
                 <Skill
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
@@ -91,7 +91,7 @@ function SkillsPage(props) {
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
                     alt="Firebase"
                     type="Firebase"
-                    rating={6}
+                    rating={7}
                 />
                 <Skill
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
@@ -103,7 +103,7 @@ function SkillsPage(props) {
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
                     alt="Visual Studio Code"
                     type="Visual Studio Code"
-                    rating={7}
+                    rating={8}
                 />
                 {/* <Skill
                     src="/Users/sean/Dev/portfolioSite/portfolio-site/src/assets/bash-original.svg"
