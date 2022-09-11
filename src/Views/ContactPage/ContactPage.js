@@ -19,6 +19,7 @@ function ContactPage(props) {
                                 id="github-icon"
                             />
                         </a>
+                        Github
                     </div>
                     <div className="social-icon">
                         <a href="https://my.indeed.com/p/seanf-xf7txcg">
@@ -28,6 +29,17 @@ function ContactPage(props) {
                                 id="indeed-icon"
                             />
                         </a>
+                        Indeed
+                    </div>
+                    <div className="social-icon">
+                        <a href={require("/Users/sean/Dev/portfolioSite/portfolio-site/src/assets/sean-finegan-resume.pdf")}>
+                            <img
+                                src={require("/Users/sean/Dev/portfolioSite/portfolio-site/src/assets/resume-icon.png")}
+                                alt="Indeed Icon"
+                                id="indeed-icon"
+                            />
+                        </a>
+                        Resume
                     </div>
                     <div className="social-icon">
                         <a href="https://www.linkedin.com/in/sean-finegan-9a5949220/">
@@ -37,6 +49,7 @@ function ContactPage(props) {
                                 id="linkedIn-icon"
                             />
                         </a>
+                        LinkedIn
                     </div>
                 </div>
             </section>

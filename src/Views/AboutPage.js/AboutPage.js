@@ -19,24 +19,21 @@ function AboutPage(props) {
                                     boardgame and sports enthusiast.
                                 </p>
                                 <p>
-                                    {" "}
-                                    I've built web apps, web pages and simple
-                                    games using{" "}
-                                    <strong>JavaScript, Python </strong> and the{" "}
-                                    <strong>MERN</strong> stack. I'm currently
-                                    working with two companies (Armored Coatings
-                                    and Yard To Fork) on their websites and web
-                                    apps and love the process of creating,
-                                    building, and refining projects.{" "}
+                                    Since learning to code in 2019 and graduating from a full stack bootcamp
+                                    (Nucamp), I've built web apps, web pages, PWA's, data models and simple
+                                    games. 
                                 </p>
+                                <p>I've had the opportunity to work with Armored Coatings to build their
+                                    company website, intern
+                                    with Onsite Analytics and do contract work with several other
+                                    companies (Yard To Fork LLC and Hidden Mountain Data).</p>
                                 <p>
-                                    Since graduating from a full stack bootcamp
-                                    (Nucamp) I have mainly been working on the
-                                    front end with <strong>React</strong> and{" "}
-                                    <strong>Firebase</strong> for projects. I'm
-                                    looking forward to continued growth and
-                                    exploration in the world of programming.
+                                    Technologies I've recently utilizized include <strong>JavaScript, React, Redux, Firebase</strong>, DBT, SQL, 
+                                    and Google Bigquery.{" "}{" "}
+                                    I have mainly been working on the
+                                    front end with MUI, React Bootstrap, React-Icons, raw CSS / SASS and many smaller libraries but also have experience with Node.js / Express, Python, and SQL.
                                 </p>
+                            
                             </div>
                         }
                     />
