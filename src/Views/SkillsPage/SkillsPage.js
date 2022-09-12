@@ -40,12 +40,7 @@ function SkillsPage(props) {
         <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" type="Git / Github" rating={5} />
         <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-plain.svg" alt="GitLab" type="GitLab" rating={4} />
         <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="Visual Studio Code" type="Visual Studio Code" rating={8} />
-        {/* <Skill
-                    src="/Users/sean/Dev/portfolioSite/portfolio-site/src/assets/bash-original.svg"
-                    alt="Bash"
-                    type="Bash"
-                    rating={3}
-                /> */}
+        
       </div>
     </React.Fragment>
   )
