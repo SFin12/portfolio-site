@@ -36,9 +36,9 @@ function ProjectsPage() {
                       <strong>Yard To Fork LLC</strong>
                       <p><strong>Description: </strong>Customer and admin facing PWA that allows customers to communicate, research and choose plants for their gardens. The admin side streamlines customer information for employees and allows admin to update customer facing data. Currently being developed.</p>
                       <strong>Hidden Mountan Data</strong>
-                      <p><strong>Description: </strong>Data warehouse project transforming data using SQL, DBT and Google Bigquery for data Analytics.</p>
+                      <p><strong>Description: </strong>Data warehouse project transforming data using SQL, DBT and Google Bigquery for data analytics.</p>
                       <strong>Onsite Analytics</strong>
-                      <p><strong>Description: </strong> Worked as an intern with other develpers problem solving and building company website and Features.</p>
+                      <p><strong>Description: </strong> Worked as an intern with other developers problem solving and building the company website and features.</p>
                       </div>
                                       }
                                         />

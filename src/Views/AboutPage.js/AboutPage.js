@@ -19,7 +19,7 @@ function AboutPage(props) {
                                     boardgame and sports enthusiast.
                                 </p>
                                 <p>
-                                    Since learning to code in 2019 and graduating from a full stack bootcamp
+                                    Since starting to code in 2019 and graduating from a full stack bootcamp
                                     (Nucamp), I've built web apps, web pages, PWA's, data models and simple
                                     games. 
                                 </p>
