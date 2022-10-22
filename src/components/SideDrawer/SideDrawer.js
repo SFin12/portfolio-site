@@ -1,6 +1,5 @@
 import React from "react";
 import "./SideDrawer.scss";
-import { PillButton } from "../Buttons/PillButton";
 import { SideDrawerButton } from "../Buttons/SideDrawerButton";
 
 const sideDrawer = (props) => {
@@ -17,7 +16,7 @@ const sideDrawer = (props) => {
         {
             name: "Home",
             to: "home",
-            background: "salmon",
+            background: "#192841",
             textColor: "white",
         },
         {

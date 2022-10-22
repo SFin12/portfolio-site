@@ -1,10 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sedgwick+Ave&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poiret+One&family=Sedgwick+Ave&display=swap");
+@font-face {
+  font-family: 'nikea';
+  src: url('./assets/fonts/NIKEA.otf');
+}
 
-$title-font-size: 2.5rem;
-$cursive-font: "Dancing Script", cursive;
+$title-font-size: 2rem;
+$cursive-font: "nikea";
+// $cursive-font: "Dancing Script", cursive;
 $title-font: "Supermercado One", cursive;
+$bar-color:#192841;
+$bar-fade-color:#23395D;
 
 * {
     margin: 0px;
@@ -60,6 +67,6 @@ $title-font: "Supermercado One", cursive;
 @media (min-width: 756px) {
     .page-title {
         font-weight: 800;
-        font-size: 4rem;
+        font-size: 3rem;
     }
 }

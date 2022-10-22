@@ -2,7 +2,7 @@ import "./Card.scss";
 
 function Card({ title, image, description, link }) {
     return (
-        // <a href={link} style={{ "text-decoration": "none" }}>
+        
         <div
             className="card text-center mx-md-2 mx-xl-5 my-3 custom-cards"
             id="why-us"
@@ -16,7 +16,7 @@ function Card({ title, image, description, link }) {
                     alt="Epoxy Garage"
                 />
             </a>
-            <div className="card-body bg-dark text-white">
+            <div className="card-body text-white">
                 <p className="card-text mb-1">{description}</p>
             </div>
         </div>

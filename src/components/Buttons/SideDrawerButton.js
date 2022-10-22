@@ -5,13 +5,12 @@ export const SideDrawerButton = ({
     name,
     to,
     close,
-    background = "black",
     textColor = "white",
-}) => (
+}) =>  (
     <HashLink smooth to={`/#${to}`} onClick={close}>
         <button
-            className="sideDrawer-button"
-            style={{ background: background, color: textColor }}
+            className={`sideDrawer-button ${to === 'home' ? 'home-button' : null}`}
+            style={{ color: textColor }}
         >
             {name}
         </button>

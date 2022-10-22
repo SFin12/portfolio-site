@@ -13,11 +13,12 @@
 .card-header {
     background-image: linear-gradient(
         5deg,
-        salmon 70%,
-        rgba(253, 126, 79, 0.6)
+        $bar-color 70%,
+        #23395d
     );
-    font-family: "Supermercado One", cursive;
-    font-size: xx-large;
+    // font-family: "Supermercado One", cursive;
+    font-family: $cursive-font;
+    font-size: large;
     color: white;
     margin-bottom: -5px;
 }
@@ -26,6 +27,7 @@
     object-fit: contain;
     max-height: 400px;
     padding: 20px 0 20px 0;
+    // background-color: black;
     background-color: black;
     border-radius: 0%;
 }
@@ -40,6 +42,7 @@
     border-radius: 0 0 20px 20px;
     object-fit: contain;
     margin-top: -9px;
+    background-color: $bar-color;
 }
 
 .custom-cards {

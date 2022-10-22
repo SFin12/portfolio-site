@@ -7,7 +7,7 @@ function AboutPage(props) {
         <React.Fragment>
             <section className="about-page pt-5" id="about-page">
                 <div className="d-flex justify-content-center">
-                    <h1 className="page-title">About Me</h1>
+                    <h1 className="page-title pt-2">About Me</h1>
                 </div>
                 <div className="about-container d-flex flex-wrap justify-content-around m-4 ">
                     <BluredContainer

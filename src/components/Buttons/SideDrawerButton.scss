@@ -1,10 +1,28 @@
 @import "../../App.scss";
 
+
+
 .sideDrawer-button {
     height: 100%;
     width: 100%;
     border: none;
     font-family: $cursive-font;
     font-size: 2.2rem;
-    border-bottom: 2px solid salmon;
+    border-bottom: 2px solid $bar-fade-color;
+    background-color: black;
+}
+
+.home-button {
+  background-color: $bar-color;
+}
+
+
+
+.sideDrawer-button:hover {
+  background-color: $bar-fade-color;
+
+}
+.sideDrawer-button:active .sideDrawer-button:focus{
+  background-color: $bar-fade-color;
+
 }

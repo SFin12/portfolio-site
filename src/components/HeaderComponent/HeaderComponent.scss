@@ -4,8 +4,40 @@ $small-container-width: 300px;
 $small-container-height: 180px;
 
 .main {
-    background-image: url("../../assets/187161.jpg");
+
+    // background-image: url("../../assets/187161.jpg");
+    // background-image: url("../../assets/abstract-paper-mobile.svg");
+    background-repeat: no-repeat;
+    // background-size: 100%; 
+    background-size: cover;
+    background-position: center;
+
+
+    .secret-button {
+      display: hidden;
+      color: transparent;
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      cursor: pointer;
+      z-index: 2;
+      font-size: .75rem;
+    }
+    .secret-button:hover {
+      background-color: black;
+      color: white
+    }
 }
+
+.tech {
+  background-image: url("../../assets/187161.jpg");
+}
+
+.paper {
+  background-image: url("../../assets/abstract-paper-mobile.svg");
+}
+
+
 
 .overlay {
     color: white;
@@ -26,7 +58,7 @@ $small-container-height: 180px;
 
 h2,
 .subtitle {
-    font-size: $title-font-size + 0.25rem;
+    font-size: $title-font-size ;
     color: white;
     font-family: $cursive-font;
     font-weight: 400;
@@ -46,7 +78,7 @@ h2,
     justify-content: center;
     width: $small-container-width;
     height: $small-container-height;
-    border: rgba(0, 0, 0, 0) 1px solid;
+    // border: rgba(0, 0, 0, 0) 1px solid;
     border-radius: 8px;
     transition: 1s;
     text-decoration: none;
@@ -63,7 +95,9 @@ h2,
     z-index: 10;
 }
 
+
 @media (min-width: 756px) {
+
     .hover-trigger:hover ~ .cover {
         background-color: rgba(255, 255, 255, 0.7);
     }
@@ -76,14 +110,22 @@ h2,
             // font-size: $title-font-size * 1.1;
         }
         .small-container {
-            border-color: black;
+            // border-color: black;
             text-decoration: none;
             padding: 5px;
             transform: scale(125%);
             // width: $small-container-width * 1.6;
             // height: $small-container-height * 1.6;
-            background-color: rgba($color: #fff, $alpha: 0.3);
-            box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+            // background-color: rgba($color: #fff, $alpha: 0.3);
+            // box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
         }
     }
+}
+
+@media (min-width: 756px) and (max-height: 1000px) {
+
+  // .main {
+  //   background-image: url("../../assets/abstract-paper.svg");
+  //   // background-image: url("../../assets/187161.jpg");
+  // }
 }
