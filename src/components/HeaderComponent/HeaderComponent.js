@@ -6,8 +6,7 @@ function HeaderComponent() {
 
   const [background, setBackground] = useState('paper')
 
-  function handleBackground(e){
-    console.log(background)
+  function handleBackground(){
     setBackground((prev) => prev === 'paper' ? 'tech' : 'paper')
   }
 

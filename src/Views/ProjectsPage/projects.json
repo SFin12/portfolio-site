@@ -2,8 +2,8 @@
     {
         "title": "Coach's Clipboard",
         "image": "peClipboardMobile.png",
-        "description": "React SPA for coaches and PE teachers with a mobile first design that's meant to replace the clipboard. Utilizes Redux, React Router, and Firebase for the database",
-        "link": "https://sfin12.github.io/pe-clipboard-react/"
+        "description": "React SPA for coaches and PE teachers with a mobile first design that's meant to replace the clipboard. Login and checkout the about section. Utilizes Redux, React Router, and Firebase for the database",
+        "link": "https://pe-clipboard-3391b.firebaseapp.com/"
     },
     {
         "title": "Armored Coatings",
@@ -15,7 +15,7 @@
         "title": "Chorzy",
         "image": "Chorzy.jpg",
         "description": "Favorite personal project designed as a PWA and used by friends and family for tracking chores and allowance. Involves some complicated logic with points / money conversion",
-        "link": "https://kids-allowance-a64f2.web.app/"
+        "link": "https://chorzy.app/"
     },
     {
         "title": "Sonic Adventure",
