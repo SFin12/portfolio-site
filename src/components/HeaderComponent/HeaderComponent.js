@@ -4,7 +4,7 @@ import { useState } from "react"
 
 function HeaderComponent() {
 
-  const [background, setBackground] = useState('paper')
+  const [background, setBackground] = useState('tech')
 
   function handleBackground(){
     setBackground((prev) => prev === 'paper' ? 'tech' : 'paper')
@@ -31,4 +31,4 @@ function HeaderComponent() {
 
 export default HeaderComponent;
 
-// style={{ fontSize: 20 }}
+
