@@ -50,8 +50,8 @@
   }
 }
 
-@function linearBarColor($percentWidth) {
-}
+// @function linearBarColor($percentWidth) {
+// }
 
 .skill {
   display: flex;
@@ -120,6 +120,7 @@
   }
 
   @media (min-width: 756px) {
+
     .icon-wrapper {
       height: 50px;
       width: 50px;
@@ -136,46 +137,47 @@
     //     font-weight: 700;
     // }
 
-    .skills-container {
-      display: flex;
-      width: 50%;
-      max-width: 1248px;
-    }
   }
 
-  /* experience level for each language.  Change width % to mimic experience level with 100% being mastery */
-  /* double the width #, subtract from 250 and update the second color middle number with that value for each of the following backgrounds*/
-  .rating-2 {
-    background-image: linear-gradient(to right, rgb(0, 250, 250), rgb(0, 210, 250));
-    width: 20%;
-  }
-  .rating-3 {
-    background: linear-gradient(to right, rgba(0, 250, 250), rgba(0, 190, 250));
+  // .rating-2 {
+  //   background-image: linear-gradient(to right, rgb(0, 250, 250), rgb(0, 210, 250));
+  //   width: 20%;
+  // }
+  // .rating-3 {
+  //   background: linear-gradient(to right, rgba(0, 250, 250), rgba(0, 190, 250));
 
-    width: 30%;
-  }
-  .rating-4 {
-    background-image: linear-gradient(to right, rgb(0, 250, 250), rgb(0, 170, 250));
-    width: 40%;
-  }
-  .rating-5 {
-    background-image: linear-gradient(to right, rgb(0, 250, 250), rgb(0, 150, 250));
-    width: 50%;
-  }
+  //   width: 30%;
+  // }
+  // .rating-4 {
+  //   background-image: linear-gradient(to right, rgb(0, 250, 250), rgb(0, 170, 250));
+  //   width: 40%;
+  // }
+  // .rating-5 {
+  //   background-image: linear-gradient(to right, rgb(0, 250, 250), rgb(0, 150, 250));
+  //   width: 50%;
+  // }
 
-  .rating-6 {
-    /* double the width #, subtract from 250 and update the second color middle number with that value for each of the following backgrounds*/
-    background-image: linear-gradient(to right, rgb(0, 250, 250), rgb(0, 130, 250));
-    width: 60%; /* increase with experience */
-  }
+  // .rating-6 {
+  //   /* double the width #, subtract from 250 and update the second color middle number with that value for each of the following backgrounds*/
+  //   background-image: linear-gradient(to right, rgb(0, 250, 250), rgb(0, 130, 250));
+  //   width: 60%; /* increase with experience */
+  // }
 
-  .rating-7 {
-    background-image: linear-gradient(to right, rgb(0, 250, 250), rgb(0, 110, 250));
-    width: 70%;
-  }
+  // .rating-7 {
+  //   background-image: linear-gradient(to right, rgb(0, 250, 250), rgb(0, 110, 250));
+  //   width: 70%;
+  // }
 
-  .rating-8 {
-    background-image: linear-gradient(to right, rgb(0, 250, 250), rgb(0, 90, 250));
-    width: 80%;
+  // .rating-8 {
+  //   background-image: linear-gradient(to right, rgb(0, 250, 250), rgb(0, 90, 250));
+  //   width: 80%;
+  // }
+}
+
+@media (min-width: 756px) {
+
+  .skills-container{
+    width: 75%;
+    max-width: 1248px;
   }
 }
