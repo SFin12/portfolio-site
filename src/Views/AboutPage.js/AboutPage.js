@@ -20,8 +20,7 @@ function AboutPage(props) {
                                 </p>
                                 <p>
                                     Since starting to code in 2019 and graduating from a full stack bootcamp
-                                    (Nucamp), I've built web apps, web pages, PWA's, data models and simple
-                                    games. 
+                                    (Nucamp), I've published a Chrome extension, built web apps, web pages, PWA's, data models and simple games. 
                                 </p>
                                 <p>I've had the opportunity to work with Armored Coatings to build their
                                     company website, intern

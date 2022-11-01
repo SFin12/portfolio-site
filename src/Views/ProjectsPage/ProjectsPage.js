@@ -34,7 +34,7 @@ function ProjectsPage() {
                       <BluredContainer title={'Other Projects'} description={
                                         <div className="text-start">
                       <strong>Yard To Fork LLC</strong>
-                      <p><strong>Description: </strong>Customer and admin facing PWA that allows customers to communicate, research and select plants for their gardens. The admin side allows admin to update customer facing data. Currently in developed.</p>
+                      <p><strong>Description: </strong>Customer and admin facing PWA that allows customers to communicate, research and select plants for their gardens. The admin side allows admin to update customer facing data. Currently in development.</p>
                       <strong>Hidden Mountan Data</strong>
                       <p><strong>Description: </strong>Data warehouse project transforming data using SQL, DBT and Google Bigquery for data analytics.</p>
                       <strong>Onsite Analytics</strong>
