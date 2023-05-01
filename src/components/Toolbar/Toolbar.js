@@ -12,7 +12,7 @@ const Toolbar = (props) => (
 
                 <div className="toolbar__logo">
                     Sean Finegan{" "}
-                    <span className="full-stack"> - Web Developer</span>
+                    <span className="full-stack"> - Full Stack Developer</span>
                 </div>
                 {/* <div className="spacer" /> */}
                 <div className="toolbar_navigation-items">
