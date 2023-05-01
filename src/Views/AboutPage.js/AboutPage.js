@@ -20,7 +20,7 @@ function AboutPage(props) {
                                 </p>
                                 <p>
                                     Since starting to code in 2019 and graduating from a full stack bootcamp
-                                    (Nucamp), I've published a Chrome extension, built web apps, web pages, PWA's, data models and simple games. 
+                                    (Nucamp), I've published a Chrome web extension, built web apps, web pages, PWA's, data models and simple games. 
                                 </p>
                                 <p>I've had the opportunity to work with Armored Coatings to build their
                                     company website, intern
@@ -29,8 +29,8 @@ function AboutPage(props) {
                                 <p>
                                     Technologies I've recently utilizized include <strong>JavaScript, React, Redux, Firebase</strong>, DBT, SQL, 
                                     and Google Bigquery.{" "}{" "}
-                                    I have mainly been working on the
-                                    front end with MUI, React Bootstrap, React-Icons, raw CSS / SASS and many smaller libraries but also have experience with Node.js / Express, Python, and SQL.
+                                    I have worked more on the
+                                    front end with MUI, React Bootstrap, Typescript, raw CSS / SASS and vanilla JavaScript but also have experience with Node.js / Express, Python, and SQL. I'm also working more with OpenAi API's, prompt engineering, and have experience with Git, Github, and Gitlab. I'm currently learning Next.js along with Vue / Nuxt.
                                 </p>
                             
                             </div>
