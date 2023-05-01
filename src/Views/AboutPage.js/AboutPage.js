@@ -30,7 +30,7 @@ function AboutPage(props) {
                                     Technologies I've recently utilizized include <strong>JavaScript, React, Redux, Firebase</strong>, DBT, SQL, 
                                     and Google Bigquery.{" "}{" "}
                                     I have worked more on the
-                                    front end with MUI, React Bootstrap, Typescript, raw CSS / SASS and vanilla JavaScript but also have experience with Node.js / Express, Python, and SQL. I'm also working more with OpenAi API's, prompt engineering, and have experience with Git, Github, and Gitlab. I'm currently learning Next.js along with Vue / Nuxt.
+                                    front end with MUI, React Bootstrap, Typescript, raw CSS / SASS and vanilla JavaScript but also have experience with Node.js / Express, Python, and SQL. I'm currently working on an automation tool to help a startup speed up their proposal process using various API's including Google API's and OpenAi API's.
                                 </p>
                             
                             </div>
