@@ -1,14 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Sedgwick+Ave&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poiret+One&family=Sedgwick+Ave&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Poppins&family=Sansita+Swashed&display=swap');
+
 @font-face {
   font-family: 'nikea';
   src: url('./assets/fonts/NIKEA.otf');
 }
 
+
+
 $title-font-size: 2rem;
-$cursive-font: "nikea";
-// $cursive-font: "Dancing Script", cursive;
+$secondary-font: 'Poppins', sans-serif;
+// font-family: 'Sansita Swashed', cursive;
+// $secondary-font: "Dancing Script", cursive;
 $title-font: "Supermercado One", cursive;
 $bar-color:#192841;
 $bar-fade-color:#23395D;
@@ -31,7 +36,7 @@ $bar-fade-color:#23395D;
     justify-content: center;
     font-size: $title-font-size;
     font-family: "Sedgwick Ave", cursive;
-    font-family: $cursive-font;
+    font-family: $secondary-font;
     color: white;
 }
 
@@ -59,7 +64,7 @@ $bar-fade-color:#23395D;
 }
 
 .page-title {
-    font-family: $cursive-font;
+    font-family: $secondary-font;
     font-weight: 700;
     font-size: 3rem;
 }

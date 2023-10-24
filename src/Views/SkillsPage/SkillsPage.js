@@ -1,5 +1,7 @@
 import React from "react"
 import Skill from "./Skill"
+import gitHubIcon from '../../assets/github.svg';
+import prismaIcon from '../../assets/prisma-icon.png';
 import "./SkillsPage.scss"
 
 function SkillsPage(props) {
@@ -23,6 +25,8 @@ function SkillsPage(props) {
             <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" type="Firebase" rating={7} />
             <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" type="Git / Github" rating={5} />
             <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-plain.svg" alt="GitLab" type="GitLab" rating={4} />
+            <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind" type="Tailwind" rating={4} />
+            <Skill src={prismaIcon} alt="Prisma" type="Prisma" rating={3} />
           </div>
           <div className="familiar-container">
             <div id="familiar">
@@ -37,7 +41,12 @@ function SkillsPage(props) {
             {/* <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="npm" type="Npm" rating={6} /> */}
           
             <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-plain.svg" alt="SQL" type="SQL / Bigquery" rating={3} />
-         
+            <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"  alt="Vue" type="Vue" rating={3} />
+            <Skill alt="Next" type="Next" i={<i class="devicon-nextjs-line" style={{fontSize: '3rem', color:"white"}}></i>} rating={3} />
+            <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg" alt="Nest.js" type="Nest.js" rating={3} />
+        
+     
+          
           </div>
         </div>
       </div>

@@ -1,39 +1,40 @@
 [
-    {
-        "title": "Coach's Clipboard",
-        "image": "peClipboardMobile.png",
-        "description": "React SPA for coaches and PE teachers with a mobile first design that's meant to replace the clipboard. Login and checkout the about section. Utilizes Redux, React Router, and Firebase for the database",
-        "link": "https://pe-clipboard-3391b.firebaseapp.com/"
-    },
-    {
-        "title": "Armored Coatings",
-        "image": "armoredCoatings.png",
-        "description": "Clean and simple website using HTML, custom CSS, Bootstrap, and JavaScript. EmailJS API and Zipcode API implemented in quick estimate modal for more accurate estimates.",
-        "link": "http://armoredcoatings.net/"
-    },
-    {
-        "title": "Chorzy",
-        "image": "Chorzy.jpg",
-        "description": "Favorite personal project designed as a PWA and used by friends and family for tracking chores and allowances. Involves some complicated logic with points / money conversion",
-        "link": "https://chorzy.app/"
-    },
-    {
-        "title": "Sonic Adventure",
-        "image": "sonicScavengerHunt.png",
-        "description": "Kids scavenger hunt that gives clues and asks for correct answers before giving the next clue. Utilizes React with JSON files for the information. JavaScript and CSS used for countdown animation. Created for my son's birthday party and is not currently mobile friendly.",
-        "link": "https://sfin12.github.io/sonic-scavenger-hunt/"
-    },
+  {
+    "title": "Infinite Campus Autofill",
+    "image": "ICA-chrome-wefb-store.png",
+    "description": "Chrome extension published in the Chrome Web Store. Created to automate manual data entry for teachers. It transforms clipboard data into a JSON format that is used to match names and Id's to autofill grades. The main purpose is to allow teachers to quickly copy and paste grades from spreadsheets or other sources into Infinite Campus.",
+    "link": "https://chrome.google.com/webstore/detail/infinite-campus-autofill/dmllephnebeajfbigebfgcngghfndhnd?hl=en"
+  },
+  {
+    "title": "Coach's Clipboard",
+    "image": "peClipboardMobile.png",
+    "description": "React SPA for coaches and PE teachers with a mobile first design that's meant to replace the clipboard. Login and checkout the about section. Utilizes Redux, React Router, and Firebase for the database",
+    "link": "https://pe-clipboard-3391b.firebaseapp.com/"
+  },
+  {
+    "title": "Chorzy",
+    "image": "Chorzy.jpg",
+    "description": "Favorite personal project designed as a PWA and used by friends and family for tracking chores and allowances. Involves some complicated logic with points / money conversion",
+    "link": "https://chorzy.app/"
+  },
+  {
+    "title": "Armored Coatings",
+    "image": "armoredCoatings.png",
+    "description": "Clean and simple website using HTML, custom CSS, Bootstrap, and JavaScript. EmailJS API and Zipcode API implemented in quick estimate modal for more accurate estimates.",
+    "link": "http://armoredcoatings.net/"
+  },
 
-    {
-        "title": "Baseball Profile",
-        "image": "baseball-profile.png",
-        "description": "Practice project to show various aspects of react and CSS. Use any name or password to login! This is a baseball profile web app to see personal info, league stats, and training videos. The app uses fake data to simulate data from a database or api.  Uses React, Bootstrap, React Router and other front end technologies.",
-        "link": "https://sfin12.github.io/baseball-profile-app/"
-    },
-    {
-        "title": "Infinite Campus Autofill",
-        "image": "ICA-chrome-wefb-store.png",
-        "description": "Chrome extension published in the Chrome Web Store. Created to automate manual data entry for teachers. It transforms clipboard data into a JSON format that is used to match names and Id's to autofill grades. The main purpose is to allow teachers to quickly copy and paste grades from spreadsheets or other sources into Infinite Campus.",
-        "link": "https://chrome.google.com/webstore/detail/infinite-campus-autofill/dmllephnebeajfbigebfgcngghfndhnd?hl=en"
-    }
+  {
+    "title": "Sonic Adventure",
+    "image": "sonicScavengerHunt.png",
+    "description": "Kids scavenger hunt that gives clues and asks for correct answers before giving the next clue. Utilizes React with JSON files for the information. JavaScript and CSS used for countdown animation. Created for my son's birthday party and is not currently mobile friendly.",
+    "link": "https://sfin12.github.io/sonic-scavenger-hunt/"
+  },
+
+  {
+    "title": "Baseball Profile",
+    "image": "baseball-profile.png",
+    "description": "Practice project to show various aspects of react and CSS. Use any name or password to login! This is a baseball profile web app to see personal info, league stats, and training videos. The app uses fake data to simulate data from a database or api.  Uses React, Bootstrap, React Router and other front end technologies.",
+    "link": "https://sfin12.github.io/baseball-profile-app/"
+  }
 ]

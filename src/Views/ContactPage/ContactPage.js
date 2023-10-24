@@ -32,7 +32,7 @@ function ContactPage(props) {
                         Indeed
                     </div>
                     <div className="social-icon">
-                        <a href={require("/Users/sean/Dev/portfolioSite/portfolio-site/src/assets/Sean Finegan Resume.pdf")}>
+                        <a href={require("/Users/sean/Dev/portfolioSite/portfolio-site/src/assets/Sean-Finegan-Resume.pdf")}>
                             <img
                                 src={require("/Users/sean/Dev/portfolioSite/portfolio-site/src/assets/resume-icon.png")}
                                 alt="Indeed Icon"
