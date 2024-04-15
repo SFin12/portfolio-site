@@ -16,9 +16,9 @@ function ProjectsPage() {
               title={"Highlighted Projects"}
               description={
                 <div className="text-start">
-                      <strong>SiteWalk</strong>
+                      <strong>StorageWalk</strong>
                   <p>
-                    <strong>Description: </strong> Web / Mobile app for Aura Technology. Allows managers to manage employees and locations. Managers can create and manage security routes for employees to follow on the associated mobile app. Built with React, React Native, Nest.js, Google Maps, and PostgreSQL.
+                    <strong>Description: </strong> Web / Mobile app for Aura Technology. Managers can create and manage security routes for employees to follow on the associated mobile app. Built with React, React Native, Nest.js, Google Maps, and PostgreSQL.
                   </p>
                   <strong>Hidden Mountan Data</strong>
                   <p>

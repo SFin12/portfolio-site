@@ -17,6 +17,7 @@ function SkillsPage(props) {
             </div>
 
             <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="javascript" type="JavaScript" rating={8} />
+            <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="Typescript" type="Typescript" rating={4} />
             <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="Html" type="Html" rating={6} />
             <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" type="CSS" rating={7} />
             <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" type="React" rating={8} />
@@ -25,14 +26,13 @@ function SkillsPage(props) {
             <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" type="Firebase" rating={7} />
             <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" type="Git / Github" rating={5} />
             <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-plain.svg" alt="GitLab" type="GitLab" rating={4} />
-            <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind" type="Tailwind" rating={4} />
+            <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind" type="Tailwind" rating={4} />
             <Skill src={prismaIcon} alt="Prisma" type="Prisma" rating={3} />
           </div>
           <div className="familiar-container">
             <div id="familiar">
               <h3>Familiar</h3>
             </div>
-            <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="Typescript" type="Typescript" rating={4} />
             <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" alt="Node" type="Node" rating={5} />
             <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" type="Python" rating={4} />
             <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="Redux" type="Redux" rating={5} />
@@ -43,7 +43,9 @@ function SkillsPage(props) {
             <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-plain.svg" alt="SQL" type="SQL / Bigquery" rating={3} />
             <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"  alt="Vue" type="Vue" rating={3} />
             <Skill alt="Next" type="Next" i={<i class="devicon-nextjs-line" style={{fontSize: '3rem', color:"white"}}></i>} rating={3} />
-            <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg" alt="Nest.js" type="Nest.js" rating={3} />
+            <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" alt="Nest.js" type="Nest.js" rating={3} />
+            <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="aws" type="AWS" rating={3} />
+            <Skill src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="postgresql" type="Postgresql" rating={3} />
         
      
           
