@@ -6,10 +6,10 @@
     "link": "https://chrome.google.com/webstore/detail/infinite-campus-autofill/dmllephnebeajfbigebfgcngghfndhnd?hl=en"
   },
   {
-    "title": "Coach's Clipboard",
+    "title": "PE Clipboard",
     "image": "peClipboardMobile.png",
-    "description": "React SPA for coaches and PE teachers with a mobile first design that's meant to replace the clipboard. Login and checkout the about section. Utilizes Redux, React Router, and Firebase for the database",
-    "link": "https://pe-clipboard-3391b.firebaseapp.com/"
+    "description": "A virtual clipboard and assessment tool for coaches and PE teachers with a mobile first design that's meant to replace the clipboard. Reduces grade entry time by up to 90%. Utilizes Redux, React, Nest.js, JWT, AWS, and Postgres.",
+    "link": "https://pe-clipboard.com/"
   },
   {
     "title": "Chorzy",
